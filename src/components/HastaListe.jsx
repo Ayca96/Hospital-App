@@ -41,7 +41,7 @@ const HastaListe = ({ hastalar, setHastalar, doktorlar }) => {
                   </div>
                   <div>
                     <FaTimesCircle
-                      style={{ color: "red" }}
+                      style={{ color: "#0056b3"}}
                       onClick={() =>
                         setHastalar(hastalar.filter((a) => a.id !== hasta.id))
                       }
