@@ -115,6 +115,7 @@ body {
 .trueStil h2 {
   text-decoration: line-through;
   color: rgb(27, 42, 133);
+  color: #068106;
 }
 .btn + h4 {
   padding: 10px 20px;

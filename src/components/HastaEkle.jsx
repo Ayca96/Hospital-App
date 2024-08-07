@@ -52,7 +52,7 @@ console.log(hastalar);
         </div>
 
         <button type="submit" className="kayit btn-submit">
-          <span style={{ color: "#6a0707" }}> {doktorlar[0].doctorName}</span> için kayıt
+          <span style={{ color: "#0056b3" }}> {doktorlar[0].doctorName}</span> için kayıt
           oluştur
         </button>
       </form>

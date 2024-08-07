@@ -32,13 +32,13 @@ setDoktorlar(tikla ? doktorlar.filter((i)=>i.id===abc):doctorData)
                   width="180px"
                   height="150px"
                   className="btn"
-                  style={{ backgroundColor: tikla ? "aqua" : "lightgreen" }}
+                  style={{ backgroundColor: tikla ? "#5dd5f9" : " #72E8D2" }}
                   onClick={()=>doctorClick(doc.id)}
                 />
 
                 <h4
                   style={{
-                    backgroundColor: tikla ? "aqua" : "lightgreen",
+                    backgroundColor: tikla ? "#5dd5f9" : " #72E8D2",
                     borderLeft: `10px solid ${tikla ? "blue" : "green"}`,
                   }}
                 >
