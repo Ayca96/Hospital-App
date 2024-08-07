@@ -20,7 +20,7 @@ const HastaListe = ({ hastalar, setHastalar, doktorlar }) => {
      
       {hastalar.map((hasta) => (
         <div key={hasta.id}>
-         (
+         
                 <div
                  
                   className={hasta.isDone ? "trueStil" : "falseStyle"}
@@ -48,7 +48,7 @@ const HastaListe = ({ hastalar, setHastalar, doktorlar }) => {
                     />
                   </div>
                 </div>
-              )
+              
         
         </div>
       ))}
