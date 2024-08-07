@@ -47,23 +47,23 @@ export const doctorData = [
   {
     id: 0,
     doctorName: "DR Ahmet Bilen",
-    doctorImg: "https://i.cnnturk.com/i/cnnturk/75/0x555/54857220f97adb1aa472e5e6",
+    doctorImg: "https://www.shutterstock.com/image-photo/portrait-man-confident-doctor-hospital-600nw-2469643607.jpg",
   },
   {
     id: 1,
     doctorName: "DR Ayse Okur",
-    doctorImg: "https://i3.posta.com.tr/i/posta/75/750x0/616f757845d2a0b25401f0e1",
+    doctorImg: "https://media.istockphoto.com/id/1212968981/de/foto/medizinisches-konzept-der-jungen-%C3%A4rztin-im-wei%C3%9Fen-mantel-mit-stethoskop.jpg?s=612x612&w=is&k=20&c=yRruamBsWUi8M1WSt1FmHXCKKvvUb7YZPxY0BbErPsQ=",
   },
   {
     id: 2,
     doctorName: "DR Fatma Adil",
     doctorImg:
-      "https://i4.hurimg.com/i/hurriyet/75/0x0/5efd779645d2a04258b8f1cc.jpg",
+      "https://media.istockphoto.com/id/1487135554/de/foto/gesundheitswesen-berater-und-portr%C3%A4t-eines-arztes-im-b%C3%BCro-f%C3%BCr-medizinische-arbeit-kardiologie.jpg?s=612x612&w=is&k=20&c=8NKV18x0Rn3ksWz0EGAa4GLd02Oio9HTNxgXnxG2lCw=",
   },
   {
     id: 3,
     doctorName: "DR Oya Başar",
     doctorImg:
-      "https://im.haberturk.com/2019/09/12/2521591_720f96f71c734286b9c93122b8bbd70c_640x640.jpg",
+      "https://media.istockphoto.com/id/1425798958/de/foto/foto-einer-selbstbewussten-%C3%A4rztin-im-krankenhaus-die-l%C3%A4chelnd-in-die-kamera-schaut.jpg?s=612x612&w=is&k=20&c=mAWI3WhcoLPbbJyn6-hdqn4staFupffGFvl-tOER1X4=",
   },
 ];

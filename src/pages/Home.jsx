@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { doctorData,hastaData } from "../helper/Data";
 import HastaEkle from "../components/HastaEkle";
 import HastaListe from "../components/HastaListe";
+import logo from "../img/Green Simple Medical Health Logo.png"
 
 const Home = () => {
   const [doktorlar, setDoktorlar] = useState(doctorData);
@@ -21,16 +22,18 @@ setDoktorlar(tikla ? doktorlar.filter((i)=>i.id===abc):doctorData)
     <div style={{display: tikla ? "block": "flex", justifyContent:"space-between"}}>
       <div>
         <header className="header">
-          <h1>PRAXIS</h1>
-
+       
+      
+          <h1>PRAXIS 👩‍🔬</h1> 
+        
           <div className="dr">
             {doktorlar.map((doc) => (
               <div key={doc.id}>
                 <img
                   src={doc.doctorImg}
                   alt=""
-                  width="180px"
-                  height="150px"
+                  width="190px"
+                  height="180px"                  
                   className="btn"
                   style={{ backgroundColor: tikla ? "#5dd5f9" : " #72E8D2" }}
                   onClick={()=>doctorClick(doc.id)}
@@ -39,7 +42,7 @@ setDoktorlar(tikla ? doktorlar.filter((i)=>i.id===abc):doctorData)
                 <h4
                   style={{
                     backgroundColor: tikla ? "#5dd5f9" : " #72E8D2",
-                    borderLeft: `10px solid ${tikla ? "blue" : "green"}`,
+                    borderLeft: `10px solid ${tikla ? "#056085" : "green"}`,
                   }}
                 >
                   {doc.doctorName}
